@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+body {
+    background: #333;
+    color: #fff;
+    font-family: Open Sans;
+}
+
+li {
+    list-style: none;
+}
+
+/* general */
+.container {
+    width: 100%;
+    max-width: 1340px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    border-bottom: 1px solid #fff;
+}
+
+.header .wrapper {
+    height: 68px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .wrapper .menu {
+    margin-left: 37px;
+}
+
+.header .wrapper .number {
+    margin-right: 37px;
+}
+
+.header .wrapper .number i {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.header .wrapper .menu a {
+    margin-right: 37px;
+    padding: 5px 15px;
+    transition: 0.3s;
+}
+
+.header .wrapper .menu a:hover {
+    background: blueviolet;
+    border-radius: 51px;
+}
+
+/* hero */
+.hero {
+    padding: 100px 0 20px;
+    /* background-image: url(./img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h1{
+    line-height: 30px;
+}
+
+.hero .title-name{
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero .title-surname{
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.hero .text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero .btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.hero .btn:hover {
+    color: #000;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.hero .sci {
+    margin-top: 80px;
+    display: flex;
+    gap: 15px;
+}
+
+/* About */
+.about{
+    position: relative;
+}
+.about::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(./img/photo_2023-08-29_09-49-35.jpg);
+    
+
+}
